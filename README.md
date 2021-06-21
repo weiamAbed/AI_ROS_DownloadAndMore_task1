@@ -1,8 +1,6 @@
 # ROS_DownloadAndMore
 This repository is for task 1 of the Ai track of my summer training at Smart-Methods
 
-----------------------------------------------------------------------------------
-
 NOTE: I used windows 10 - Make sure your device hits the minimum requiremnt, you can check through this link:
 "https://askubuntu.com/questions/1030839/minimum-requirements"
 
