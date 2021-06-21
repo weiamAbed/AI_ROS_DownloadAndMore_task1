@@ -76,7 +76,7 @@ $ rosenode list
 $ rosetopic list
 
 	NOTE: Anytime you need to check which version of ROS you've installed, use the following code in the terminal:
-$ rosversion -d
+	$ rosversion -d
 
 ------------------------------------------------------------------------------------
 
