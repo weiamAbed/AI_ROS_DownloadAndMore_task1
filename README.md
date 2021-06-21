@@ -1,12 +1,12 @@
 # ROS_DownloadAndMore
 This repository is for task 1 of the AI track of my summer training at Smart-Methods
 
-NOTE: I used windows 10 - Make sure your device hits the minimum requiremnt, you can check through this link:
+NOTE: I used windows 10 - Make sure your device hits the minimum requiremnt, you can check through this link: 
 "https://askubuntu.com/questions/1030839/minimum-requirements"
 
 ----------------------------------------------------------------------------------
 
-To be able to run ROS youre required first to download VB via:
+To be able to run ROS you're required first to download VB via: 
 "https://www.virtualbox.org/wiki/Downloads"
 
 ----------------------------------------------------------------------------------
@@ -20,13 +20,15 @@ After creating a user and setting a password of Ubuntu, login to your system.
 
 Download ROS Melodic OR Neotic ( Kinetic isnt reccomended ) " http://wiki.ros.org/ROS/Installation ", 
 choose Ubuntu platform NOT windows and then follow the given installation instructions,
-To be specific, theese are the following codes I used in the same order:
+
+To be specific, these are the following codes I used in the same order:
 
 $ sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
 
-$ curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo apt-key add -
+$ curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo apt-key add 
+
 	NOTE: You might encounter an error says "curl command not found" no worries it just means that 'curl' package is not installed on your Ubuntu machine.
-you can solve it by the command "$ sudo apt install curl "
+	You can solve it by the command "$ sudo apt install curl "
 
 $ sudo apt update
 
@@ -44,9 +46,8 @@ $ sudo rosdep init
 
 $ rosdep update
 
-Make sure everything is done in ROS setup environment using the following code:
-
-$ printenv | grep ROS
+	Make sure everything is done in ROS setup environment using the following code:
+	$ printenv | grep ROS
 
 ---------------------------------------------------------------------------------------------
 
@@ -96,26 +97,28 @@ $ sudo apt-get install ros-melodic-gazebo-ros-control joint-state-publisher
 $ sudo apt-get install ros-melodic-ros-controllers ros-melodic-ros-control
 	NOTE: Replace the word "melodic" with your version if you dont use melodic.
 
--Now an error might appear: [check_motors.launch] is neither a launch file in package.. It can be solved using the following code: 
-$ sudo nano ~/.bashrc
+	Now an error might appear: [check_motors.launch] is neither a launch file in package.. It can be solved using the following code: 
+	$ sudo nano ~/.bashrc
 
 
 << NOW SCROLL UNTILL THE END OF LINE >>
-at the end of the (bashrc) file add the follwing line
 
-CHANGE "weiam" TO YOUR SYSTEM NAME
+At the end of the (bashrc) file add the follwing line:
+
+NOTE: CHANGE "weiam" TO YOUR SYSTEM NAME
+
 (source /home/weiam/catkin_ws/devel/setup.bash)
 
 then 
-  ctrl + o
-then 
-  Enter
-then 
-  crtl + x
+
+- ctrl + o
+- Enter
+- crtl + x
 
 $ source ~/.bashrc
 
 Then, the following code runs Rviz:
+
 $ roslaunch robot_arm_pkg check_motors.launch
 
 ----------------------------------------------------------------------------------
