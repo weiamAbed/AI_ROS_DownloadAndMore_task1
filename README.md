@@ -200,7 +200,7 @@ $ rm -rf ros_lib
 
 $ rosrun rosserial_arduino make_libraries.py .
 
-Restart Arduino IDE sortware; Then go to "Files" tab then "Examples" then "ros_lib" is appeared.
+	Restart Arduino IDE sortware; Then go to "Files" tab then "Examples" then "ros_lib" is appeared.
 
 -------------------------------------------------------------------------------------------------------------------------------------
 
