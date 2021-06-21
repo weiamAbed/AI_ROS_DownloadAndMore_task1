@@ -40,6 +40,7 @@ $ sudo rosdep init
 $ rosdep update
 
 Make sure everything is done in ROS setup environment using the following code:
+
 $ printenv | grep ROS
 
 ---------------------------------------------------------------------------------------------
