@@ -1,6 +1,20 @@
 # ROS_DownloadAndMore
 This repository is for task 1 of the AI track of my summer training at Smart-Methods
 
+In this repository, I will be going through these main topics to be able to controll the robotic arm simulation in Rviz and Gazebo simultaneously using a single "joint_state_publisher" gui:
+
+- Display minimum requirements
+- Download Virtual Box
+- Download Ubuntu 18.04.5
+- Download ROS (Melodic) system & run it
+- Create a catkin WorkSpace directory type
+- Download Arduino IDE on your Ubuntu system (64-bits)
+- Download & run Rviz
+- Download & run Gazebo
+- Download & run moveIt
+- Install Packages & Dependecies
+- Solving some possible ERRORS!
+
 NOTE: I used windows 10 - Make sure your device hits the minimum requiremnt, you can check through this link: 
 "https://askubuntu.com/questions/1030839/minimum-requirements"
 
