@@ -3,7 +3,7 @@ This repository is for task 1 of the Ai track of my summer training at Smart-Met
 
 ----------------------------------------------------------------------------------
 
-I used windows 10 - Make sure your device hits the minimum requiremnt, you can check through this link:
+NOTE: I used windows 10 - Make sure your device hits the minimum requiremnt, you can check through this link:
 "https://askubuntu.com/questions/1030839/minimum-requirements"
 
 ----------------------------------------------------------------------------------
@@ -41,7 +41,7 @@ $ sudo rosdep init
 
 $ rosdep update
 
-# Make sure everything is done in ROS setup environment using the following code:
+Make sure everything is done in ROS setup environment using the following code:
 $ printenv | grep ROS
 
 ---------------------------------------------------------------------------------------------
