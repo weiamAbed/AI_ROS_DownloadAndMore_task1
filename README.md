@@ -1,5 +1,5 @@
 # ROS_DownloadAndMore
-This repository is for task 1 of the Ai track of my summer training at Smart-Methods
+This repository is for task 1 of the AI track of my summer training at Smart-Methods
 
 NOTE: I used windows 10 - Make sure your device hits the minimum requiremnt, you can check through this link:
 "https://askubuntu.com/questions/1030839/minimum-requirements"
@@ -9,10 +9,14 @@ NOTE: I used windows 10 - Make sure your device hits the minimum requiremnt, you
 To be able to run ROS youre required first to download VB via:
 "https://www.virtualbox.org/wiki/Downloads"
 
+----------------------------------------------------------------------------------
+
 Then craete an Ubuntu 18.04 system in it and run it, the following link is for dounloading Ubuntu 18.04:
 "https://releases.ubuntu.com/18.04/" 
 
 After creating a user and setting a password of Ubuntu, login to your system.
+
+----------------------------------------------------------------------------------
 
 Dowmload ROS Melodic OR Neotic ( Kinetic isnt reccomended ) " http://wiki.ros.org/ROS/Installation ", choose Ubuntu platform NOT windows and then follow the given installation instructions,
 To be specific, theese are the following codes I used in the same order:
