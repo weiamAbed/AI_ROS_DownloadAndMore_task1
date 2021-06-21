@@ -18,7 +18,8 @@ After creating a user and setting a password of Ubuntu, login to your system.
 
 ----------------------------------------------------------------------------------
 
-Dowmload ROS Melodic OR Neotic ( Kinetic isnt reccomended ) " http://wiki.ros.org/ROS/Installation ", choose Ubuntu platform NOT windows and then follow the given installation instructions,
+Download ROS Melodic OR Neotic ( Kinetic isnt reccomended ) " http://wiki.ros.org/ROS/Installation ", 
+choose Ubuntu platform NOT windows and then follow the given installation instructions,
 To be specific, theese are the following codes I used in the same order:
 
 $ sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
